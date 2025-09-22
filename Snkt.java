@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Calculator {
+  public static double addTwoNumbers(double A, double B) {
+    return A + B;
+} }
+public class Snkt {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("ｺﾝﾆﾁﾊ!ｺﾉｺﾄﾊｹｲｻﾝｷﾃﾞｽ｡\nﾀﾞｲﾋﾄﾂﾉｶｽﾞｦﾆｭｳﾘｮｸｼﾃｸﾀﾞｻｲ｡");
+    double num1 = Double.parseDouble(scanner.nextLine());
+    System.out.println("ﾀﾞｲﾌﾀﾂﾉｶｽﾞｦﾆｭｳﾘｮｸｼﾃｸﾀﾞｻｲ｡");
+    double num2 = Double.parseDouble(scanner.nextLine());
+   double result = Calculator.addTwoNumbers(num1, num2);
+    System.out.println(num1 + " + " + num2 + " = " + result);
+    scanner.close();
+} }
